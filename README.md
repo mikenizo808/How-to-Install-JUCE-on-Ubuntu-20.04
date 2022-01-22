@@ -1,16 +1,19 @@
 # How-to-Install-JUCE-on-Ubuntu-20.04
 
-## TLDR - The Download Technique
-Get up and running instantly with a `JUCE` gui for `Linux`, `Windows` or `macOS` directly from the link below.  Simply download and extract then double-click the `Projucer` application which is ready to run with no installation needed.
+## TLDR
+There are two ways to get up and running with `JUCE` on `Ubuntu`.
+
+- Option 1 - The Download Technique
+Simply download, uncompress, then double-click the `Projucer` application which is ready to run with no installation needed.
 
     https://juce.com/get-juce/download
 
 
-## TLDR - The `apt` Technique
-You can also install the official bits blessed by the `Ubuntu` team by using `apt` the official package manager.
+- Option 2 - The `apt` Technique
+You can also install the official bits blessed by the `Ubuntu` team by using `apt`, the official package manager.
 
     #update package list
-    sudo apt-get update
+    sudo apt update
 
     #install JUCE
     sudo apt install -y juce-tools juce-modules-source
@@ -101,6 +104,16 @@ You will also want the "extension" pack from `microsoft` which includes addition
     #optional
     sudo apt install -y build-essential
 
+## Recommended - `Hello World` examples (compile with vs code)
+By doing the official Microsoft "hello world" tutorials for `c++`, you will further get your system ready for working with `JUCE`.
+
+    #supporting links
+    https://code.visualstudio.com/docs/languages/cpp
+    https://code.visualstudio.com/docs/languages/cpp#_tutorials
+    https://code.visualstudio.com/docs/cpp/config-linux
+
+*Note: We can optionally add support for `cmake` as well if desired, but not required.  See https://code.visualstudio.com/docs/cpp/cmake-linux for more detail on setting up support for `cmake` in Visual Studio Code.*
+
 
 ## Summary
 In this write-up we got you up and running with `JUCE` on `Ubuntu 20.04`.
@@ -110,5 +123,7 @@ In this write-up we got you up and running with `JUCE` on `Ubuntu 20.04`.
 Get started coding with the `JUCE` framework by reviewing the official get started guides which take you from start to finish and have many options if you want to skip ahead directly to a topic that interests you; Or follow the guide straight through!
 
     https://juce.com/learn/tutorials
+    
+
 
 -end-
