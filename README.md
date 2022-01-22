@@ -41,7 +41,7 @@ We can download the bits and start creating things immediately without needing t
 
 
 ## The `Projucer` application from `apt`
-Here we just repeat the steps from shown in the TLDR since the `apt` technique is that easy.
+Here we just repeat the steps shown in the TLDR since the `apt` technique is that easy.
 
     #update package list
     sudo apt-get update
