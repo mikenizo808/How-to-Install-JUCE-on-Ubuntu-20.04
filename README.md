@@ -3,20 +3,21 @@
 ## TLDR
 There are two ways to get up and running with `JUCE` on `Ubuntu`.
 
-- Option 1 - The Download Technique
-Simply download, uncompress, then double-click the `Projucer` application which is ready to run with no installation needed.
+    - Option 1 - The Download Technique
+    Simply download, uncompress, then double-click the `Projucer` application which is ready to run with no installation needed.
 
     https://juce.com/get-juce/download
 
 
-- Option 2 - The `apt` Technique
-You can also install the official bits blessed by the `Ubuntu` team by using `apt`, the official package manager.
+    - Option 2 - The `apt` Technique
+    You can also install the official bits blessed by the `Ubuntu` team by using `apt`, the official package manager.
 
-    #update package list
-    sudo apt update
 
-    #install JUCE
-    sudo apt install -y juce-tools juce-modules-source
+        #update package list
+        sudo apt update
+
+        #install JUCE
+        sudo apt install -y juce-tools juce-modules-source
 
 
 ## Intro
